@@ -5,6 +5,12 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+:root{
+--bottone: #0061FF;
+--sfondojumbo: #B4D0E7;
+
+}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -22,14 +28,19 @@
 
 /* Generali */
 
-/* Navigatore */
+/* --start navigatore */
+
+header{
+    height: 10vh;
+}
 
 nav{
+    width: 100%;
     background-color: white;
     position: fixed;
+    z-index: 999;
     top:0;
     left: 0px;
-    width: 100%;
 }
 
 .logo > img{
@@ -49,7 +60,7 @@ nav{
 }
 
 .button_nav{
-    background-color: blue;
+    background-color:var(--bottone);
     padding: 3px 6px;
     color: white;
     font-size: 8px;
@@ -60,20 +71,77 @@ nav{
     padding-left: 5px;
 }
 
+/* --end navigatore */
+
 /* Main sezione jumbo */
 
 .title_sez{
-    background-color: ;
+    background-color:var(--sfondojumbo);
+    height: 420px;
+    position: relative;
 }
 
+.jumbo{
+    height: 100%;
+    width: 60%;
+    max-width: 1200px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    translate: -50% -50%;
+    
+}
 
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
 
+.title{
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
 
+h1{
+    font-size: 2.5rem;
+}
 
+.testo_index{
+    font-size: 8px;
+    position: relative;
+}
 
+.button_main{
+    background-color:var(--bottone);
+    padding: 3px 6px;
+    color: white;
+    font-size: 8px;
+    margin: 15px 0px;
+}
 
+.jumbo > .fa-arrow-down-long{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    font-size: 25px;
 
+}
+
+img.img_jumbo {
+    width: 450px;
+    max-width: 100%;
+}
 /* Colonne */
 .col_6{
     width: calc((100% / 12) *6);
+}
+
+.col_3{
+    width: calc((100% / 12) *3);
+}
+
+.col_9{
+    width: calc((100% / 12) *9);
 }

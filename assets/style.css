@@ -21,6 +21,12 @@
     align-items: center;
 }
 
+.center{
+    justify-content: center;
+    align-items: center;
+
+}
+
 .right{
     align-items: center;
     justify-content: flex-end;
@@ -75,7 +81,7 @@ nav{
 
 /* Main sezione jumbo */
 
-.title_sez{
+.cont_jumbo{
     background-color:var(--sfondojumbo);
     height: 420px;
     position: relative;
@@ -94,7 +100,7 @@ nav{
 }
 
 .container{
-    width: 80%;
+    width: 50%;
     max-width: 1200px;
     margin: auto;
 }
@@ -133,6 +139,126 @@ img.img_jumbo {
     width: 450px;
     max-width: 100%;
 }
+
+/* sezione piani */
+
+.sezione_piani{
+    padding-top: 50px;
+}
+
+.title_sez{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.fatturazione{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.container_checkbox {
+    display: block;
+    position: relative;
+    padding-left: 15px;
+    cursor: pointer;
+    font-size: 6px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+.container_checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+.checkmark {
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 1px solid gainsboro;
+    background-color: #eee;
+  }
+
+.container_checkbox input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+.container_checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+.container_checkbox .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: white;
+  }
+
+
+.border{
+    border: 1px solid gainsboro;
+}
+
+.altezza{
+    height: 450px;
+}
+
+.title_plan{
+    border-bottom: 1px solid rgba(220, 220, 220, 0.497);
+    font-size: 8px;
+}
+
+.plan{
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+h3{
+    font-size: 9px;
+    padding-bottom: 12px;
+}
+
+h4{
+    font-size: 6px;
+    padding-bottom: 10px;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.month{
+    font-size: 6px;
+}
+
+ul{
+    list-style-type: none;
+    padding-top:15px
+
+}
+
+li{
+    font-size: 8px;
+    padding: 10px 0px;
+}
+
 /* Colonne */
 .col_6{
     width: calc((100% / 12) *6);
@@ -144,4 +270,8 @@ img.img_jumbo {
 
 .col_9{
     width: calc((100% / 12) *9);
+}
+
+.col_4{
+    width: calc((100% / 12) *4);
 }

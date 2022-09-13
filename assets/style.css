@@ -71,6 +71,7 @@ nav{
     color: white;
     font-size: 8px;
     margin-right: 10px;
+    border: none;
 }
 
 .button_nav > i{
@@ -125,6 +126,7 @@ h1{
     color: white;
     font-size: 8px;
     margin: 15px 0px;
+    border: none;
 }
 
 .jumbo > .fa-arrow-down-long{
@@ -234,16 +236,16 @@ img.img_jumbo {
 
 .plan{
     padding: 20px;
-    padding-bottom: 30px;
+    
 }
 
 h3{
-    font-size: 9px;
+    font-size: 12px;
     padding-bottom: 12px;
 }
 
 h4{
-    font-size: 6px;
+    font-size: 10px;
     padding-bottom: 10px;
 }
 
@@ -289,10 +291,11 @@ li::marker{
 .button_plan{
     color: white;
     font-size: 8px;
-    padding: 5px 0;
+    padding: 5px 10px;
     background-color: var(--bottone);
     text-align: center;
     margin: 20px 0;
+    border: none;
 }
 
 .alternative{
@@ -304,6 +307,24 @@ li::marker{
     background: gainsboro;
     width: 20%;
     margin-top: 20px;
+}
+
+.info{
+    padding-top: 20px;
+    font-size: 8px;
+    font-weight: 300;
+    width: 60%;
+}
+
+.plan_full{
+    padding: 20px;
+    position: relative;
+}
+
+.button_abs{
+    position: absolute;
+    top: 0;
+    right: 10px;
 }
 
 /* Colonne */
@@ -320,5 +341,15 @@ li::marker{
 }
 
 .col_4{
-    width: calc((100% / 12) *4);
+    width: calc((100% / 12) *4 - 10px);
+    
+}
+
+.row_plan{
+    column-gap: 15px;
+}
+
+.row_full{
+margin-top: 15px;
+
 }

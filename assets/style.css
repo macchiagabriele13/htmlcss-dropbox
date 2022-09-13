@@ -329,6 +329,11 @@ li::marker{
 
 /* Sezione partner */
 
+.partner{
+    margin: 50px 0px;
+
+}
+
 .clearfix{
     content: "";
     display: table;
@@ -342,12 +347,19 @@ li::marker{
 
 .img_partner{
     max-width: 100%;
+    width: 60%;
+    float: left;
 }
 
 .blocco_testo{
-    padding: 20px;
+    padding-left: 350px;
+    padding-right: 30px;
+    padding-top: 30px;
 }
 
+.blocco_testo > p{
+    font-size: 8px;
+}
 
 /* Colonne */
 .col_6{

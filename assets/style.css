@@ -327,6 +327,28 @@ li::marker{
     right: 10px;
 }
 
+/* Sezione partner */
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.blocco_img{
+    float: left;
+    height: 290px;
+}
+
+.img_partner{
+    max-width: 100%;
+}
+
+.blocco_testo{
+    padding: 20px;
+}
+
+
 /* Colonne */
 .col_6{
     width: calc((100% / 12) *6);

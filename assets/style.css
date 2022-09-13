@@ -222,7 +222,14 @@ img.img_jumbo {
 
 .title_plan{
     border-bottom: 1px solid rgba(220, 220, 220, 0.497);
-    font-size: 8px;
+    padding: 8px 0;
+    font-size: 6px;
+}
+
+.tplan{
+    padding-left: 2px;
+    font-size: 6px;
+
 }
 
 .plan{
@@ -255,8 +262,48 @@ ul{
 }
 
 li{
+    font-size: 6px;
+    padding: 7px 0px;
+}
+
+li > i{
+    font-size: 6px;
+}
+
+li > h4{
+    padding: 0px;
+}
+
+.li_title{
+    list-style: none;
+}
+.point{
+    list-style-image: url(./img/check-solid.svg);
+}
+
+li::marker{
+    font-size: 10px;
+}
+
+
+.button_plan{
+    color: white;
     font-size: 8px;
-    padding: 10px 0px;
+    padding: 5px 0;
+    background-color: var(--bottone);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.alternative{
+    font-size: 6px;
+}
+
+.linebrake{
+    height: 1px;
+    background: gainsboro;
+    width: 20%;
+    margin-top: 20px;
 }
 
 /* Colonne */

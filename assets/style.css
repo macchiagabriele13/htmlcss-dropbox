@@ -72,6 +72,7 @@ nav {
     font-size: 8px;
     margin-right: 10px;
     border: none;
+    text-decoration: none;
 }
 
 .button_nav>i {
@@ -120,13 +121,21 @@ h1 {
     position: relative;
 }
 
+.testo_p{
+    margin-bottom: 15px;
+}
+
+.sottotesto_p{
+    margin-top: 15px;
+}
+
 .button_main {
     background-color: var(--bottone);
     padding: 3px 6px;
     color: white;
     font-size: 8px;
-    margin: 15px 0px;
     border: none;
+    text-decoration: none;
 }
 
 .jumbo>.fa-arrow-down-long {
@@ -301,6 +310,7 @@ li::marker {
     text-align: center;
     margin: 20px 0;
     border: none;
+    text-decoration: none;
 }
 
 .alternative {
@@ -328,8 +338,9 @@ li::marker {
 
 .button_abs {
     position: absolute;
-    top: 0;
+    top: 20px;
     right: 10px;
+    
 }
 
 /* Sezione partner */
@@ -372,6 +383,7 @@ li::marker {
     background-color: white;
     padding: 3px;
     border: 1px solid gainsboro;
+    text-decoration: none;
 }
 
 /* Colonne card */
@@ -516,6 +528,7 @@ h2 {
     border: 1px solid gainsboro;
     position: absolute;
     right: 0;
+    text-decoration: none;
 
 }
 
@@ -528,6 +541,17 @@ h2 {
     position: relative;
 }
 
+.freccia_giu:hover fa-chevron-down {
+    transform: rotate(180deg);
+}
+
+.freccia_giu:hover p{
+    display: block;
+}
+
+.faq_question > p{
+    display: none;
+}
 /* Sezione FAQ */
 
 .faq{

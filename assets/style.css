@@ -56,7 +56,7 @@ nav {
 
 .pagina {
     padding: 20px 15px;
-    font-size: 8px;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -69,7 +69,7 @@ nav {
     background-color: var(--bottone);
     padding: 3px 6px;
     color: white;
-    font-size: 8px;
+    font-size: 16px;
     margin-right: 10px;
     border: none;
     text-decoration: none;
@@ -85,7 +85,7 @@ nav {
 
 .cont_jumbo {
     background-color: var(--sfondojumbo);
-    height: 420px;
+    height: 75vh;
     position: relative;
 }
 
@@ -113,11 +113,11 @@ nav {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 
 .testo_index {
-    font-size: 8px;
+    font-size: 0.75rem;
     position: relative;
 }
 
@@ -133,7 +133,7 @@ h1 {
     background-color: var(--bottone);
     padding: 3px 6px;
     color: white;
-    font-size: 8px;
+    font-size: 12px;
     border: none;
     text-decoration: none;
 }
@@ -141,13 +141,13 @@ h1 {
 .jumbo>.fa-arrow-down-long {
     position: absolute;
     left: 0;
-    bottom: 10px;
-    font-size: 25px;
+    bottom: 1.5rem;
+    font-size: 2rem;
 
 }
 
 img.img_jumbo {
-    width: 450px;
+    width: 600px;
     max-width: 100%;
 }
 
@@ -160,7 +160,7 @@ img.img_jumbo {
 .title_sez {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .fatturazione {
@@ -174,7 +174,7 @@ img.img_jumbo {
     position: relative;
     padding-left: 15px;
     cursor: pointer;
-    font-size: 6px;
+    font-size: 12px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -191,10 +191,10 @@ img.img_jumbo {
 
 .checkmark {
     position: absolute;
-    top: 0px;
+    top: 3px;
     left: 3px;
-    height: 8px;
-    width: 8px;
+    height: 12px;
+    width: 12px;
     border-radius: 50%;
     border: 1px solid gainsboro;
     background-color: #eee;
@@ -228,19 +228,17 @@ img.img_jumbo {
     border: 1px solid gainsboro;
 }
 
-.altezza {
-    height: 450px;
-}
+
 
 .title_plan {
     border-bottom: 1px solid rgba(220, 220, 220, 0.497);
     padding: 8px 0;
-    font-size: 6px;
+    font-size: 0.75rem;
 }
 
 .tplan {
     padding-left: 2px;
-    font-size: 6px;
+    font-size: 0.75rem;
 
 }
 
@@ -250,12 +248,12 @@ img.img_jumbo {
 }
 
 h3 {
-    font-size: 12px;
+    font-size: 1.5rem;
     padding-bottom: 12px;
 }
 
 h4 {
-    font-size: 10px;
+    font-size: 1rem;
     padding-bottom: 10px;
 }
 
@@ -264,7 +262,7 @@ h4 {
 }
 
 .month {
-    font-size: 6px;
+    font-size: 0.75rem;
 }
 
 ul {
@@ -273,7 +271,7 @@ ul {
 }
 
 li {
-    font-size: 6px;
+    font-size: 0.75rem;
     padding: 7px 0px;
 }
 
@@ -289,22 +287,31 @@ li>h4 {
     list-style: none;
 }
 
+.point::before{
+    content: "";
+    height: 1px;
+    background-color: gainsboro;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
 .point {
     list-style-image: url(./img/check-solid.svg);
 }
 
 li::marker {
-    font-size: 10px;
+    font-size: 0.75rem;
 }
 
-.item_elenco{
-    
+.blocco_button_plan{
+    margin: 25px 0;
 }
-
 
 .button_plan {
     color: white;
-    font-size: 8px;
+    font-size: 0.75rem;
     padding: 5px 10px;
     background-color: var(--bottone);
     text-align: center;
@@ -314,7 +321,7 @@ li::marker {
 }
 
 .alternative {
-    font-size: 6px;
+    font-size: 0.75rem;
 }
 
 .linebrake {
@@ -326,7 +333,7 @@ li::marker {
 
 .info {
     padding-top: 20px;
-    font-size: 8px;
+    font-size: 0.75rem;
     font-weight: 300;
     width: 60%;
 }
@@ -374,12 +381,12 @@ li::marker {
 }
 
 .blocco_testo>p {
-    font-size: 8px;
+    font-size: 0.75rem;
     padding-bottom: 10px;
 }
 
 .button_partner {
-    font-size: 8px;
+    font-size: 0.75rem;
     background-color: white;
     padding: 3px;
     border: 1px solid gainsboro;
@@ -392,11 +399,11 @@ li::marker {
 }
 
 .operazioni>p {
-    font-size: 8px;
+    font-size: 0.75rem;
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 2rem;
     padding-bottom: 40px;
 }
 
@@ -407,7 +414,7 @@ h2 {
 
 /* Scopri */
 .scopri>a {
-    font-size: 8px;
+    font-size: 0.75rem;
 }
 
 .scopri {
@@ -416,7 +423,7 @@ h2 {
 
 /* Sezione Sponsor */
 .quadrato {
-    height: 300px;
+    height: 500px;
 }
 
 .box {
@@ -424,24 +431,24 @@ h2 {
 }
 
 .logo {
-    height: 50px;
+    height: 75px;
     max-width: 100%;
 }
 
 .main_sponsor{
-    padding: 30px;
+    padding: 50px;
 }
 
 .main_sponsor > *{
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 .main_sponsor > p{
-    font-size: 8px;
+    font-size: 0.75rem;
 }
 
 .main_sponsor > .logo{
-    height: 65px;
+    height: 100px;
     max-width: 100%;
     align-self: flex-start;
 }
@@ -449,6 +456,15 @@ h2 {
 .main_sponsor > .separatore{
     margin: 0px;
     width: 15%;
+}
+
+.cont_logo::after {
+    content: "";
+    height: 2px;
+    background-color: gainsboro;
+    width: 15%;
+    margin-top: 50px;
+    display: block;
 }
 
 
@@ -517,31 +533,24 @@ h2 {
 
 }
 
-.space_evenly{
-    justify-content: space-evenly;
+.space_bet{
+    justify-content: space-between;
     align-items: center;
 }
 .button_prova{
-    font-size: 8px;
+    font-size: 0.75rem;
     background-color: white;
     padding: 5px 30px;
     border: 1px solid gainsboro;
-    position: absolute;
-    right: 0;
     text-decoration: none;
 
 }
 
-.title_prova{
-    position: absolute;
-    left: 0;
-}
 
-.elementi{
-    position: relative;
-}
 
-.freccia_giu:hover fa-chevron-down {
+
+
+.freccia_giu:hover .fa-chevron-down {
     transform: rotate(180deg);
 }
 
@@ -638,7 +647,7 @@ footer{
 }
 
 .link_footer {
-    font-size: 8px;
+    font-size: 0.75rem;
     text-decoration: none;
     color: white;
     margin-top: 12px;
@@ -656,7 +665,7 @@ footer{
 
 .icone_lingua{
     color: white;
-    font-size: 10px;
+    font-size: 0.65rem;
 
 }
 

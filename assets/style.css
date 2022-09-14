@@ -417,8 +417,28 @@ h2 {
 }
 
 .main_sponsor{
-    padding: 20px;
+    padding: 30px;
 }
+
+.main_sponsor > *{
+    padding-bottom: 25px;
+}
+
+.main_sponsor > p{
+    font-size: 8px;
+}
+
+.main_sponsor > .logo{
+    height: 65px;
+    max-width: 100%;
+    align-self: flex-start;
+}
+
+.main_sponsor > .separatore{
+    margin: 0px;
+    width: 15%;
+}
+
 
 
 .flex_sponsor {
@@ -479,9 +499,6 @@ h2 {
     background-color: var(--sfondojumbo);
 }
 
-.vecchiobox {
-    height: 100%;
-}
 
 .elementi > h2 {
     padding: 0;
@@ -495,11 +512,32 @@ h2 {
 .button_prova{
     font-size: 8px;
     background-color: white;
-    padding: 3px;
+    padding: 5px 30px;
     border: 1px solid gainsboro;
+    position: absolute;
+    right: 0;
 
 }
 
+.title_prova{
+    position: absolute;
+    left: 0;
+}
+
+.elementi{
+    position: relative;
+}
+
+/* Sezione FAQ */
+
+.faq{
+    padding: 90px 0;
+}
+
+.faq_question{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
 
 
 /* Colonne */

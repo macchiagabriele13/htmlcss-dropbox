@@ -288,6 +288,10 @@ li::marker {
     font-size: 10px;
 }
 
+.item_elenco{
+    
+}
+
 
 .button_plan {
     color: white;
@@ -400,8 +404,7 @@ h2 {
 
 /* Sezione Sponsor */
 .quadrato {
-    height: 365px;
-    width: 365px;
+    height: 300px;
 }
 
 .box {
@@ -413,7 +416,9 @@ h2 {
     max-width: 100%;
 }
 
-
+.main_sponsor{
+    padding: 20px;
+}
 
 
 .flex_sponsor {
@@ -478,10 +483,24 @@ h2 {
     height: 100%;
 }
 
-.elementi>h2 {
+.elementi > h2 {
     padding: 0;
-    padding-right: 125px;
+
 }
+
+.space_evenly{
+    justify-content: space-evenly;
+    align-items: center;
+}
+.button_prova{
+    font-size: 8px;
+    background-color: white;
+    padding: 3px;
+    border: 1px solid gainsboro;
+
+}
+
+
 
 /* Colonne */
 .col_6 {
@@ -513,4 +532,63 @@ h2 {
 .row_full {
     margin-top: 15px;
 
+}
+
+
+/* Footer */
+
+.contenitore_footer{
+    width: 60%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: black;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.space{
+    justify-content: space-between;
+}
+
+.elenco > h3 {
+    color: white;
+    padding-bottom: 8px;
+}
+
+.elenco > ul{
+    padding: 0;
+}
+
+.link_footer {
+    font-size: 8px;
+    text-decoration: none;
+    color: white;
+    margin-top: 12px;
+}
+
+.separatore{
+    width: 10%;
+    border-top: 1px solid gainsboro;
+    margin-top: 60px;
+}
+
+.lingua{
+    margin-top: 30px;
+}
+
+.icone_lingua{
+    color: white;
+    font-size: 10px;
+
+}
+
+.lingua_selected{
+    padding: 0 3px;
 }

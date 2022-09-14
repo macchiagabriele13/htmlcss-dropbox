@@ -50,6 +50,7 @@ nav {
 }
 
 .logo>img {
+    filter: none;
     height: 15px;
     margin: 10px;
 }

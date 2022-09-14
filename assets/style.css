@@ -433,6 +433,12 @@ h2 {
 .logo {
     height: 75px;
     max-width: 100%;
+    filter: invert(100%);
+}
+
+
+.padding20{
+    padding: 20px;
 }
 
 .main_sponsor{
@@ -447,10 +453,11 @@ h2 {
     font-size: 0.75rem;
 }
 
-.main_sponsor > .logo{
+.cont_logo > .logo{
     height: 100px;
     max-width: 100%;
     align-self: flex-start;
+    filter: none;
 }
 
 .main_sponsor > .separatore{
@@ -546,19 +553,14 @@ h2 {
 
 }
 
-
-
-
-
-.freccia_giu:hover .fa-chevron-down {
+.faq_question:hover p{
+    display: block;
+}
+.faq_question:hover .freccia_giu{
     transform: rotate(180deg);
 }
 
-.freccia_giu:hover p{
-    display: block;
-}
-
-.faq_question > p{
+.faq_question_title > p{
     display: none;
 }
 /* Sezione FAQ */

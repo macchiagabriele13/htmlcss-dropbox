@@ -49,7 +49,8 @@ nav {
     left: 0px;
 }
 
-.logo>img {
+.logo1>img {
+    filter: none;
     height: 15px;
     margin: 10px;
 }
